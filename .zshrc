@@ -20,3 +20,6 @@ function mkcd {
 # Like... "ll" or "ll DIRECTORY"
 alias ll="ls -l"
 alias lla="ls -la"
+
+# 'la' This will perform an 'ls' and show all hidden files.
+alias la="ls -a"
