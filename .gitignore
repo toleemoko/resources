@@ -1,9 +1,13 @@
 # Toleemoko's Starting Place for a .gitignore
-# https://github.com/toleemoko/handyThings
+# This and other handy things. --> https://github.com/toleemoko/resources/
 
-# Gitignore v1.1
+# Credit where credit is due. A lot of this comes from https://github.com/github/gitignore
+
+
+# Gitignore v1.0
 
 # General OS Files to Ignore
+# Default MacOS Gitignore
 ._*
 .DocumentRevisions-V100
 .fseventsd
@@ -20,8 +24,7 @@ Temporary Items
 .DS_Store
 .AppleDouble
 .LSOverride
-# ---
-Thumbs.db
+# Default Microsoft Windows Gitignore
 Thumbs.db
 Thumbs.db:encryptable
 ehthumbs.db
@@ -60,4 +63,6 @@ Sessionx.vim
 
 # Project Specific Files to Ignore
 node_modules/
+my/
+my.gitignore
 .env
