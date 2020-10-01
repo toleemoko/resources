@@ -21,6 +21,9 @@ function mkcd {
 alias ll="ls -l --color=auto"
 alias lla="ls -la --color=auto"
 
+# 'ls' This will add color to the standard 'ls' command.
+alias ls="ls --color=auto"
+
 # 'la' This will perform an 'ls' and show all hidden files. Now with color!
 alias la="ls -a --color=auto"
 
