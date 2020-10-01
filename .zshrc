@@ -26,3 +26,6 @@ alias la="ls -a --color=auto"
 
 # '..' This will go back one directory.
 alias ..="cd .."
+
+# 'c' This will clear the console.
+alias c="clear"
