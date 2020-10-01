@@ -3,3 +3,14 @@
 
 # File system commands:
 
+# 'mkcd' This will create and automatically CD into a directory.
+# Like... "mkcd DIRECTORY"
+function mkcd {
+  if [ ! -n "$1" ]; then
+    echo "Enter a directory name"
+  elif [ -d $1 ]; then
+    echo "\`$1' already exists"
+  else
+    mkdir $1 && cd $1
+  fi
+}
