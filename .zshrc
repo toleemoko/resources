@@ -23,3 +23,6 @@ alias lla="ls -la --color=auto"
 
 # 'la' This will perform an 'ls' and show all hidden files. Now with color!
 alias la="ls -a --color=auto"
+
+# '..' This will go back one directory.
+alias ..="cd .."
