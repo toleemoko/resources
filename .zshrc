@@ -3,7 +3,8 @@
 
 # File system commands:
 
-# 'mkcd' This will create and automatically CD into a directory.
+# 'mkcd' This will create and automatically CD into a directory. 
+# Code from "https://bit.ly/2Sfoebi"
 # Like... "mkcd DIRECTORY"
 function mkcd {
   if [ ! -n "$1" ]; then
