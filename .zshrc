@@ -18,17 +18,20 @@ function mkcd {
 
 # 'll' This will give a list view of items in a given directory. 'lla' will do the same, but show hidden files as well. Now with color!
 # Like... "ll" or "ll DIRECTORY"
-alias ll="ls -l --color=auto"
-alias lla="ls -la --color=auto"
+alias ll="ls -l"
+alias lla="ls -la"
 
 # 'ls' This will add color to the standard 'ls' command.
-alias ls="ls --color=auto"
+alias ls="ls -G"
 
 # 'la' This will perform an 'ls' and show all hidden files. Now with color!
-alias la="ls -a --color=auto"
+alias la="ls -a"
 
 # '..' This will go back one directory.
 alias ..="cd .."
+
+# '~' This will go back to the root directory.
+alias ~="cd ~"
 
 # 'c' This will clear the console.
 alias c="clear"
