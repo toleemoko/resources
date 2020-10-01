@@ -16,10 +16,10 @@ function mkcd {
   fi
 }
 
-# 'll' This will give a list view of items in a given directory. 'lla' will do the same, but show hidden files as well.
+# 'll' This will give a list view of items in a given directory. 'lla' will do the same, but show hidden files as well. Now with color!
 # Like... "ll" or "ll DIRECTORY"
-alias ll="ls -l"
-alias lla="ls -la"
+alias ll="ls -l --color=auto"
+alias lla="ls -la --color=auto"
 
-# 'la' This will perform an 'ls' and show all hidden files.
-alias la="ls -a"
+# 'la' This will perform an 'ls' and show all hidden files. Now with color!
+alias la="ls -a --color=auto"
