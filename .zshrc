@@ -14,3 +14,8 @@ function mkcd {
     mkdir $1 && cd $1
   fi
 }
+
+# 'll' This will give a list view of items in a given directory. 'lla' will do the same, but show hidden files as well.
+# Like... "ll" or "ll DIRECTORY"
+alias ll="ls -l"
+alias lla="ls -la"
